@@ -1,0 +1,128 @@
+<?php
+
+defined('MOODLE_INTERNAL') || die;
+
+if ($ADMIN->fulltree) {
+
+// Background colour setting
+$name = 'theme_custom/bodybgcolor';
+$title = get_string('bodybgcolor','theme_custom');
+$description = get_string('bodybgcolordesc', 'theme_custom');
+$default = '#fff';
+$setting = new admin_setting_configtext($name, $title, $description, $default, PARAM_CLEAN, 12);
+$settings->add($setting);
+
+// Logo file setting
+$name = 'theme_custom/logo';
+$title = get_string('logo','theme_custom');
+$description = get_string('logodesc', 'theme_custom');
+$setting = new admin_setting_configtext($name, $title, $description, '', PARAM_URL);
+$settings->add($setting);
+
+// link color setting
+$name = 'theme_custom/linkcolor';
+$title = get_string('linkcolor','theme_custom');
+$description = get_string('linkcolordesc', 'theme_custom');
+$default = '#3266CC';
+$previewconfig = NULL;
+$setting = new admin_setting_configcolourpicker($name, $title, $description, $default, $previewconfig);
+$settings->add($setting);
+
+// link hover color setting
+$name = 'theme_custom/linkhover';
+$title = get_string('linkhover','theme_custom');
+$description = get_string('linkhoverdesc', 'theme_custom');
+$default = '#6d1523';
+$previewconfig = NULL;
+$setting = new admin_setting_configcolourpicker($name, $title, $description, $default, $previewconfig);
+$settings->add($setting);
+
+// block background colour setting
+$name = 'theme_custom/blockbgcolor';
+$title = get_string('blockbgcolor','theme_custom');
+$description = get_string('blockbgcolordesc', 'theme_custom');
+$default = '#ffffff';
+$previewconfig = NULL;
+$setting = new admin_setting_configcolourpicker($name, $title, $description, $default, $previewconfig);
+$settings->add($setting);
+
+// block heading background setting
+$name = 'theme_custom/blockbgheading';
+$title = get_string('blockbgheading','theme_custom');
+$description = get_string('blockbgheadingdesc', 'theme_custom');
+$default = '#dddddd';
+$previewconfig = NULL;
+$setting = new admin_setting_configcolourpicker($name, $title, $description, $default, $previewconfig);
+$settings->add($setting);
+
+// block heading color setting
+$name = 'theme_custom/blockheadingcolor';
+$title = get_string('blockheadingcolor','theme_custom');
+$description = get_string('blockheadingcolordesc', 'theme_custom');
+$default = '#585858';
+$previewconfig = NULL;
+$setting = new admin_setting_configcolourpicker($name, $title, $description, $default, $previewconfig);
+$settings->add($setting);
+
+// block border color setting
+$name = 'theme_custom/blockbordercolor';
+$title = get_string('blockbordercolor','theme_custom');
+$description = get_string('blockbordercolordesc', 'theme_custom');
+$default = '#ddd';
+$previewconfig = NULL;
+$setting = new admin_setting_configcolourpicker($name, $title, $description, $default, $previewconfig);
+$settings->add($setting);
+
+// Buttons background colour setting
+$name = 'theme_custom/buttonsbgcolor';
+$title = get_string('buttonsbgcolor','theme_custom');
+$description = get_string('buttonsbgcolordesc', 'theme_custom');
+$default = '#32a7c8';
+$previewconfig = NULL;
+$setting = new admin_setting_configcolourpicker($name, $title, $description, $default, $previewconfig);
+$settings->add($setting);
+
+/*
+// Block region width
+$name = 'theme_custom/regionwidth';
+$title = get_string('regionwidth','theme_custom');
+$description = get_string('regionwidthdesc', 'theme_custom');
+$default = 210;
+$choices = array(200=>'200px', 240=>'240px', 290=>'290px', 350=>'350px', 420=>'420px');
+$setting = new admin_setting_configselect($name, $title, $description, $default, $choices);
+$settings->add($setting);
+*/
+ 
+// Foot note setting
+$name = 'theme_custom/footertext';
+$title = get_string('footertext','theme_custom');
+$description = get_string('footertextdesc', 'theme_custom');
+$setting = new admin_setting_confightmleditor($name, $title, $description, '');
+$settings->add($setting);
+
+// Footer background colour
+$name = 'theme_custom/footerbgcolor';
+$title = get_string('footerbgcolor','theme_custom');
+$description = get_string('footerbgcolordesc', 'theme_custom');
+$default = '#f1f1f1';
+$previewconfig = NULL;
+$setting = new admin_setting_configcolourpicker($name, $title, $description, $default, $previewconfig);
+$settings->add($setting);
+
+// Footer text colour
+$name = 'theme_custom/footercolor';
+$title = get_string('footercolor','theme_custom');
+$description = get_string('footercolordesc', 'theme_custom');
+$default = '#585858';
+$previewconfig = NULL;
+$setting = new admin_setting_configcolourpicker($name, $title, $description, $default, $previewconfig);
+$settings->add($setting);
+
+// Custom CSS file
+$name = 'theme_custom/customcss';
+$title = get_string('customcss','theme_custom');
+$description = get_string('customcssdesc', 'theme_custom');
+$setting = new admin_setting_configtextarea($name, $title, $description, '');
+$settings->add($setting);
+
+}

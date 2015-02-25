@@ -1,0 +1,307 @@
+[submodule "mod/quiz/accessrule/honestycheck"]
+	path = mod/quiz/accessrule/honestycheck
+	url = git@github.com:moodleou/moodle-quizaccess_honestycheck.git
+[submodule "mod/adaptivequiz"]
+	path = mod/adaptivequiz
+	url = https://github.com/middlebury/moodle-mod_adaptivequiz
+[submodule "mod/hsuforum"]
+	path = mod/hsuforum
+	url = git@github.com:moodlerooms/moodle-mod_hsuforum.git
+[submodule "question/type/multichoiceset"]
+	path = question/type/multichoiceset
+	url = git@github.com:jmvedrine/moodle-qtype_multichoiceset.git
+[submodule "local/update_assignment"]
+	path = local/update_assignment
+	url = git@github.com:ULCC/local_update_assignment.git
+[submodule "local/anonymousposting"]
+	path = local/anonymousposting
+	url = git@github.com:ULCC/moodle-local_anonymousposting.git
+[submodule "local/articulate_fix"]
+	path = local/articulate_fix
+	url = git@github.com:ULCC/moodle-local_articulate_fix.git
+[submodule "blocks/attendance_punctuality"]
+	path = blocks/attendance_punctuality
+	url = git@github.com:ULCC/moodle-block_attendance_punctuality.git
+[submodule "blocks/attendance"]
+	path = blocks/attendance
+	url = git@github.com:danmarsden/moodle-block_attendance.git
+[submodule "mod/attendance"]
+	path = mod/attendance
+	url = git@github.com:ULCC/moodle-mod_attendance.git
+[submodule "mod/attendanceregister"]
+	path = mod/attendanceregister
+	url = git@github.com:nicusX/moodle-mod_attendanceregister.git
+[submodule "grade/grading/form/btec"]
+	path = grade/grading/form/btec
+	url = git@github.com:marcusgreen/moodle-gradingform_btec.git
+[submodule "mod/certificate"]
+	path = mod/certificate
+	url = git@github.com:markn86/moodle-mod_certificate.git
+[submodule "blocks/xcrisearch"]
+	path = blocks/xcrisearch
+	url = git@github.com:ULCC/moodle-block_xcrisearch.git
+[submodule "blocks/checklist"]
+	path = "blocks/checklist"
+	url = git@github.com:davosmith/moodle-block_checklist.git
+[submodule "mod/checklist"]
+	path = mod/checklist
+	url = git@github.com:davosmith/moodle-checklist.git
+[submodule "mod/choicegroup"]
+	path = mod/choicegroup
+	url = git@github.com:ndunand/moodle-mod_choicegroup.git
+[submodule "course/format/topcoll"]
+	path = course/format/topcoll
+	url = git@github.com:gjb2048/moodle-format_topcoll.git
+[submodule "report/courseawards"]
+	path = report/courseawards
+	url = git@github.com:vaughany/moodle-courseawards.git
+[submodule "blocks/course_contents"]
+	path = blocks/course_contents
+	url = git@github.com:mudrd8mz/moodle-block_course_contents.git
+[submodule "course/format/grid"]
+	path = course/format/grid
+	url = git@github.com:gjb2048/moodle-courseformat_grid.git
+[submodule "blocks/course_overview_campus"]
+	path = blocks/course_overview_campus
+	url = git@github.com:moodleuulm/moodle-block_course_overview_campus.git
+[submodule "blocks/course_reports"]
+	path = blocks/course_reports
+	url = git@github.com:ULCC/moodle-block_course_reports.git
+[submodule "blocks/course_tree_list"]
+	path = blocks/course_tree_list
+	url = git@github.com:ULCC/moodle-block_course_tree_list.git
+[submodule "mod/coursework"]
+	path = mod/coursework
+	url = git@github.com:ULCC/moodle-mod_coursework.git
+[submodule "question/behaviour/dfcbmexplicitvaildate"]
+	path = question/behaviour/dfcbmexplicitvaildate
+	url = git@github.com:maths/moodle-qbehaviour_dfcbmexplicitvaildate.git
+[submodule "question/behaviour/dfexplicitvaildate"]
+	path = question/behaviour/dfexplicitvaildate
+	url = git@github.com:maths/moodle-qbehaviour_dfexplicitvaildate.git
+[submodule "question/type/ddwtos"]
+	path = question/type/ddwtos
+	url = git@github.com:moodleou/moodle-qtype_ddwtos.git
+[submodule "question/type/ddmarker"]
+	path = question/type/ddmarker
+	url = git@github.com:moodleou/moodle-qtype_ddmarker.git
+[submodule "question/type/ddimageortext"]
+	path = question/type/ddimageortext
+	url = git@github.com:moodleou/moodle-qtype_ddimageortext.git
+[submodule "question/type/ddmatch"]
+	path = question/type/ddmatch
+	url = git@github.com:jmvedrine/moodle-qtype_ddmatch.git
+[submodule "repository/evernote"]
+	path = repository/evernote
+	url = git@github.com:FMCorz/moodle-repository_evernote.git
+[submodule "auth/dbsyncother"]
+	path = auth/dbsyncother
+	url = git@github.com:ULCC/moodle-auth_dbsyncother.git
+[submodule "enrol/databaseextended"]
+	path = enrol/databaseextended
+	url = git@github.com:ULCC/moodle-enrol_databaseextended.git
+[submodule "mod/facetoface"]
+	path = mod/facetoface
+	url = git@github.com:catalyst/facetoface-2.0.git
+[submodule "mdo/forumng"]
+	path = mdo/forumng
+	url = git@github.com:moodleou/moodle-mod_forumng.git
+[submodule "mod/game"]
+	path = mod/game
+	url = git@github.com:bdaloukas/moodle-mod_game.git
+[submodule "question/type/gapfill"]
+	path = question/type/gapfill
+	url = git@github.com:marcusgreen/moodle-qtype_gapfill.git
+[submodule "blocks/gsb"]
+	path = blocks/gsb
+	url = git@github.com:havingar/block_gsb.git
+[submodule "report/gsb"]
+	path = report/gsb
+	url = git@github.com:havingar/report_gsb.git
+[submodule "blocks/ilp"]
+	path = blocks/ilp
+	url = git@github.com:ULCC/private-block_ilp.git
+[submodule "filter/jmol"]
+	path = filter/jmol
+	url = git@github.com:geoffrowland/moodle-filter_jmol.git
+[submodule "mod/journal"]
+	path = mod/journal
+	url = git@github.com:dmonllao/moodle-mod_journal.git
+[submodule "mod/lightboxgallery"]
+	path = mod/lightboxgallery
+	url = git@github.com:netspotau/moodle-mod_lightboxgallery.git
+[submodule "blocks/massaction"]
+	path = blocks/massaction
+	url = git@github.com:hqhoang/moodle-block_massaction.git
+[submodule "blocks/mmu_course_overview"]
+	path = blocks/mmu_course_overview
+	url = git@github.com:ULCC/moodle-block_mmu_course_overview.git
+[submodule "blocks/mrbs"]
+	path = blocks/mrbs
+	url = git@github.com:arborrow/moodle-block_mrbs.git
+[submodule "question/type/multinumerical"]
+	path = question/type/multinumerical
+	url = git@github.com:ndunand/moodle-qtype_multinumerical.git
+[submodule "blocks/slideshow"]
+	path = blocks/slideshow
+	url = git@github.com:moodleboy/moodle-block_slideshow.git
+[submodule "mod/nln"]
+	path = mod/nln
+	url = git@github.com:ULCC/moodle-mod_nln.git
+[submodule "course/format/notitle"]
+	path = course/format/notitle
+	url = git@github.com:ULCC/moodle-course_format_notitle.git
+[submodule "blocks/notifications"]
+	path = blocks/notifications
+	url = git@github.com:arael/moodle_notifications_20.git
+[submodule "mod/assign/submission/onlineaudio"]
+	path = mod/assign/submission/onlineaudio
+	url = git@github.com:pauln/moodle-assignsubmission_onlineaudio.git
+[submodule "blocks/contact_lesoco"]
+	path = blocks/contact_lesoco
+	url = git@github.com:ULCC/moodle-block_contact_lesoco.git
+[submodule "question/behaviour/opaque"]
+	path = question/behaviour/opaque
+	url = git@github.com:moodleou/moodle-qbehaviour_opaque.git
+[submodule "question/type/order"]
+	path = question/type/order
+	url = git@github.com:andreev-artem/moodle_question_type_order.git
+[submodule "mod/ouwiki"]
+	path = mod/ouwiki
+	url = git@github.com:moodleou/moodle-mod_ouwiki.git
+[submodule "question/type/pmatch"]
+	path = question/type/pmatch
+	url = git@github.com:moodleou/moodle-qtype_pmatch.git
+[submodule "question/type/pmatchjme"]
+	path = question/type/pmatchjme
+	url = git@github.com:moodleou/moodle-qtype_pmatchjme.git
+[submodule "blocks/print_reports"]
+	path = blocks/print_reports
+	url = git@github.com:ULCC/moodle-block_print_reports.git
+[submodule "blocks/programme_level"]
+	path = blocks/programme_level
+	url = git@github.com:ULCC/moodle-block_programme_level.git
+[submodule "blocks/progress"]
+	path = blocks/progress
+	url = git@github.com:deraadt/Moodle-block_progress.git
+[submodule "question/type/opaque"]
+	path = question/type/opaque
+	url = git@github.com:moodleou/moodle-qtype_opaque.git
+[submodule "mod/questionnaire"]
+	path = mod/questionnaire
+	url = git@github.com:remotelearner/moodle-mod_questionnaire.git
+[submodule "blocks/quickmail"]
+	path = blocks/quickmail
+	url = git@github.com:lsuits/quickmail.git
+[submodule "blocks/reportsdash"]
+	path = blocks/reportsdash
+	url = git@github.com:ULCC/moodle-block_reportsdash.git
+[submodule "question/type/ordering"]
+	path = question/type/ordering
+	url = https://github.com/gbateson/moodle-qtype_ordering
+[submodule "mod/respondusws"]
+	path = mod/respondusws
+	url = git@github.com:ULCC/moodle-mod_respondusws.git
+[submodule "question/type/pmatchreverse"]
+	path = question/type/pmatchreverse
+	url = git@github.com:timhunt/moodle-qtype_pmatchreverse.git
+[submodule "mod/scheduler"]
+	path = mod/scheduler
+	url = git@github.com:bostelm/moodle-mod_scheduler.git
+[submodule "blocks/sgul_navigation"]
+	path = blocks/sgul_navigation
+	url = git@github.com:ULCC/moodle-block_sgul_navigation.git
+[submodule "blocks/sharing_cart"]
+	path = blocks/sharing_cart
+	url = git@github.com:VERSION2-Inc/moodle-block_sharing_cart.git
+[submodule "mod/slideshow"]
+	path = mod/slideshow
+	url = git@github.com:noparadise/moodle-mod_slideshow.git
+[submodule "mod/subcourse"]
+	path = mod/subcourse
+	url = git@github.com:mudrd8mz/moodle-mod_subcourse.git
+[submodule "mod/subpage"]
+	path = mod/subpage
+	url = git@github.com:moodleou/moodle-mod_subpage.git
+[submodule "mod/tab"]
+	path = mod/tab
+	branch = master
+	url = git@github.com:oohoo/moodle-mod_tab.git
+[submodule "mod/threesixty"]
+	path = mod/threesixty
+	url = git@github.com:vfremaux/moodle-mod_threesixty.git
+[submodule "mod/tracker"]
+	path = mod/tracker
+	url = git@github.com:vfremaux/moodle-mod_tracker.git
+[submodule "mod/tutorship"]
+	path = mod/tutorship
+	url = git@github.com:danielneis/moodle-mod-tutorship.git
+[submodule "blocks/ulcc_diagnostics"]
+	path = blocks/ulcc_diagnostics
+	url = git@github.com:ULCC/moodle-block_ulcc_diagnostics.git
+[submodule "auth/ulcc_sharedsecret_sso"]
+	path = auth/ulcc_sharedsecret_sso
+	url = git@github.com:ULCC/moodle-auth_ulcc_sharedsecret_sso.git
+[submodule "local/ulcc_webservices"]
+	path = local/ulcc_webservices
+	url = git@github.com:ULCC/moodle-local_ulcc_webservices.git
+[submodule "enrol/dbuserrel"]
+	path = enrol/dbuserrel
+	url = git@github.com:maxCSA/moodle-enrol_dbuserrel.git
+[submodule "question/type/varnumeric"]
+	path = question/type/varnumeric
+	url = git@github.com:moodleou/moodle-qtype_varnumeric.git
+[submodule "question/type/varnumericset"]
+	path = question/type/varnumericset
+	url = git@github.com:moodleou/moodle-qtype_varnumericset.git
+[submodule "question/type/varnumunit"]
+	path = question/type/varnumunit
+	url = git@github.com:moodleou/moodle-qtype_varnumunit.git
+[submodule "local/webgroupsync"]
+	path = local/webgroupsync
+	url = git@github.com:ULCC/moodle-local_webgroupsync.git
+[submodule "local/leapwebservices"]
+	path = local/leapwebservices
+	url = git@github.com:sdc/moodle-local_leapwebservices.git
+[submodule "question/type/jme"]
+	path = question/type/jme
+	url = git@github.com:jmvedrine/moodle-qtype_jme.git
+[submodule "theme/ulccwhite"]
+	path = theme/ulccwhite
+	url = git@github.com:ULCC/moodle-theme_ulccwhite.git
+[submodule "mod/forumng"]
+	path = mod/forumng
+	url = git@github.com:moodleou/moodle-mod_forumng.git
+[submodule "local/mahara"]
+	path = local/mahara
+	url = git@github.com:fellowapeman/moodle-local_mahara.git
+[submodule "module/forumng"]
+	path = module/forumng
+	url = git@github.com:moodleou/moodle-mod_forumng.git
+[submodule "local/ulcc_external_connection"]
+	path = local/ulcc_external_connection
+	url = git@github.com:ULCC/local_ulcc_external_connection.git
+[submodule "mod/hotpot"]
+	path = mod/hotpot
+	url = git@github.com:gbateson/moodle-mod_hotpot.git
+[submodule "mod/oublog"]
+	path = mod/oublog
+	url = git@github.com:moodleou/moodle-mod_oublog.git
+[submodule "grade/export/checklist"]
+	path = grade/export/checklist
+	url = git@github.com:davosmith/moodle-grade_checklist.git
+[submodule "blocks/side_bar"]
+	path = blocks/side_bar
+	url = git@github.com:jfilip/moodle-block_side_bar.git
+[submodule "local/analytics"]
+	path = local/analytics
+	url = git@github.com:DBezemer/moodle-local_analytics.git
+[submodule "blocks/quickscan"]
+	path = blocks/quickscan
+	url = git@github.com:lucisgit/moodle-block_quickscan.git
+[submodule "course/format/flexsections"]
+	path = course/format/flexsections
+	url = git@github.com:marinaglancy/moodle-format_flexsections.git
+[submodule "mod/assign/submission/mahara"]
+	path = mod/assign/submission/mahara
+	url = git@github.com:ULCC/moodle-assign_mahara.git

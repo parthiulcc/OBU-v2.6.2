@@ -1,0 +1,194 @@
+/** Path: parents ulccwhite core **/
+/********************************************************
+**
+** Theme name: ULCCWHITE
+** Creation Date: April 2011
+** Author: ULCC
+** Author URI: http://www.ulcc.ac.uk
+**
+*********************************************************/
+
+/*Updated January 2012*/
+
+/* Global 
+------------------------*/
+
+html {padding: 0; margin: 0;}
+body, h1,h2,h3,h4,h5,h6,p,ul,ol,dl{font-family: Helvetica,Arial,FreeSans,sans-serif; }
+body {padding: 0; color: #585858; font-size: .8em;}
+
+a img { border: none;}
+a{text-decoration: none;}
+a:link {color: #3266CC;}
+a:visited {color: #3266CC;}
+a:hover, a:active {color: #6d1523;}
+
+input[type=submit] {margin: 0 5px;padding: 2px 8px;text-align: center;vertical-align: middle;white-space: nowrap;cursor: pointer;color: #fff;border: 1px solid #BBB;border-radius: 50px;-webkit-border-radius: 50px;-moz-border-radius: 50px;}
+
+/* Header
+-----------------------*/
+#page-header {min-height: 100px; }
+#page-header h1{min-height: 100px;}
+#page-header .header-right{float:right;}
+#page-header .header-right  .logininfo{font-size: .9em; padding: 3px;  margin: 10px 0 0; padding: 10px;}
+#page-header .header-left{float:left;}
+#page-header .header-left img{padding: 0 10px;}
+
+/* Breadcrumb 
+-----------------------*/
+.navbar { padding: 10px 0;}
+.navbar .navbutton { margin-top: 0;}
+.breadcrumb .sep { font-size: 0.8em; }
+
+/* Tabs
+-----------------------*/
+
+/* Content
+-----------------------*/
+
+/* Defining fluid or fixed theme.. for fluid theme change width to 100%*/
+#page {width: 90%; margin: 0 auto; min-width: 950px;}
+#page-content{float:none; font-size:.9em;}
+h2.headingblock , .headingblock{margin: 0;padding: 5px;text-align: left;font-size: 1.5em;}
+h2.main, h3.main, h4.main {margin: 0;padding: 0 0 10px 0;text-align: left;}
+.side-pre-only #page-content #region-main-box #region-post-box #region-main-wrap #region-main { padding: 0 20px;}
+
+ /* Blocks
+-----------------------*/ 
+
+.block .header h2{font-size: 100%; display:inline; margin:0}
+.block .header .title {padding: 2px;text-transform:uppercase;background: #ddd;margin: 1px;}
+.block .header .title .block_action { margin: 2px;}
+.block .block-hider-show, .block .block-hider-hide { margin: 0 0 5px 0;}
+.block .content {border: 0;padding: 5px;}
+.block .header .commands {padding: 5px 0 0 0;}
+.block .header .commands .icon {margin: 2px;}
+ 
+.block_settings_navigation_tree .content .footer {text-align: center;}
+.block_settings_navigation_tree .content .footer .adminsearchform {margin-left: 5%;width: 90%;}
+.block_settings_navigation_tree .content .footer .adminsearchform #adminsearchquery {width: 95%;}
+ 
+.path-calendar .maincalendar .calendarmonth tr.r1{background: #fff;}
+
+/* @group No Blocks */
+.content-only #page-content #region-main-box {margin-left: 0px;}
+.content-only #page-content #region-main-box #region-post-box {margin-left: 0px;}
+.content-only #page-content #region-main-box #region-post-box #region-main-wrap #region-main {margin-left: 0px;}
+.content-only #page-content #region-main-box #region-post-box #region-pre {width: 0px;}
+.content-only #page-content #region-main-box #region-post-box #region-post {width: 0px;}
+
+/* Forms
+-----------------------*/
+.mform fieldset{border-color:#ddd;}
+.mform fieldset legend{background:#ddd; text-transform: uppercase;}
+.mform legend{border:1px solid #ddd;background:url(image.php?theme=obu&image=gradient-sb&component=theme) repeat-x 0 -25%;padding:2px 7px;}
+.form-item .form-label {font-weight: bold;}
+.form-item {clear: both; margin: 1em 0;}
+input, textarea, select {margin: 0 0 5px 5px;}
+
+/* Login page
+-----------------------*/
+#page-login-index #region-main{background: none}
+#page-login-index #region-main .loginpanel{padding:0;}
+.loginbox.twocolumns {margin-left: 5% auto;width: 90%;}
+.loginbox {border: 1px solid #ddd; margin: 15px 25%; width: 50%;}
+.loginbox  {-moz-border-radius: 5px;background:url(image.php?theme=obu&image=login&component=theme) no-repeat top right;	}
+.loginbox.twocolumns .loginpanel  { margin-bottom:0px;}
+
+/* Calendar
+-----------------------*/
+.path-calendar .maincalendar { margin: 10px 0;}
+.minicalendarblock h3{font-size: 1em;}
+.block_calendar_month .content .minicalendar , .block .minicalendar{font-size: 0.9em;border-collapse: separate; border-spacing: 1px !important;}
+.block_calendar_month .content .calendar-controls a {font-weight: bold;}
+.block_calendar_month .content .minicalendar td {border-color: #FFF;}
+.block_calendar_month .content .minicalendar .day, .block .minicalendar .day{color: #000;border: 1px solid #ccc;}
+.block_calendar_month .content .minicalendar .today, .block .minicalendar .today {border: 2px solid #FF0000;}
+.block_calendar_month .content .minicalendar .weekdays th {border-width: 0;font-weight: bold;color: #000;}
+.block_calendar_month .content .minicalendar .weekdays abbr {border-width: 0;text-decoration: none;}
+
+/* Course page
+---------------------------*/
+.course-content .section.main {background: #ddd;border: 0;}
+.course-content ul.topics li.section .content {	margin:0;}
+ul.topics li#section-0, ul.weeks li#section-0 { background: #fff; border: 0;}
+h3.sectionname {padding: 5px;}
+.course-content .section.main .content {background: #fff;}
+.mod-indent-1 {	border-bottom:1px dotted #ddd;margin-left:20px;padding:2px 0;}
+.headingblock{border-bottom:1px solid #585858;}
+.categorylist {	border-bottom:1px dotted #ddd; margin: 0 auto; width: 98%;}
+.categorylist .category {padding:5px 0 0 0;}
+#page-course-category .generalbox {width:100%;}
+#movecourses .generalbox{border:0;}
+#movecourses .generalbox td{border-bottom: 1px dotted #ddd;}
+.mform .fitem .fitemtitle {font-weight:bold;}
+.path-course-view li.activity span.autocompletion, .path-course-view li.activity form.togglecompletion { right: -0px;}
+.coursebox{width: 97%; padding: 10px 0;margin: 0 auto;border-bottom: 1px dotted #ddd;}
+.categorybox .category {font-size: 1em;}
+ .course-content .section li.activity{padding: 5px 0;}
+
+/* Footer
+-----------------------*/
+#page-footer {margin: 10px auto 0 auto; padding: 10px 0; float: none;}
+#page-footer .page-footer-wrapper{padding: 0 15px; }
+#page-footer .powered{line-height: 1.6; text-align: right;}
+#page-footer .footer-left{float:left; }
+#page-footer .footer-left li{ display: inline;list-style-type: none;padding-right: 10px;}
+.performanceinfo{clear:both; text-align: center;width: 50%;margin: 0 auto;}
+.performanceinfo span{display:block;}
+
+/* Admin
+-----------------------*/
+.generalbox{border: none;}
+.boxwidthwide { width: 100%;}
+table{margin: 1em 0; width: 100%; border: 1px solid ##ddd }
+#adminsettings{padding: 0 20px;}
+#adminsettings fieldset { margin-top: 0; padding: 1em 0;}
+tr{border-bottom: 1px solid #ddd;}
+tr.r1{background: #f1f1f1;}
+#intro, .informationbox { background: #FFFCE5; border: 1px solid #EEDD55; margin: 10px 0; padding: 10px;}
+h3.main{ margin: 10px 0; padding: 5px 0 5px 5px; text-align: left;}
+#authmenu table tr{border:0;}
+label{font-weight: bold;}
+.initialbar a{padding: 0 3px;}
+
+/*Forum
+-----------------------*/
+.forumpost .row .topic, .forumpost .row .content-mask, .forumpost .row .options {padding: 5px;}
+.forumpost .picture img { border: 1px solid #ddd; padding: 2px;}
+.subject{font-weight: bold; font-size: 1.1em;}
+.forumpost .row .left {padding-right: 10px;}
+.forumpost div.row.header{background:#eee;}
+.author{font-size: .9em;}
+.forumpost div.row.header {margin: 0 0 10px;}
+
+/*User
+-----------------------*/
+.block .content .userpicture {border: 1px solid #DDDDDD; padding: 1px; width: 16px;}
+
+/* Custom Menu
+-----------------------*/
+#custommenu * { border:none;}
+.yui3-skin-sam .yui3-menu-horizontal .yui3-menu-label, .yui3-skin-sam .yui3-menu-horizontal .yui3-menu-content {background-image: none;}
+#custommenu { font-weight: bold;}
+#custommenu a { line-height: 24px;}
+#custommenu a:link, #custommenu a:visited { text-decoration:none;color: #585858;}
+#custommenu a:active, #custommenu a:hover { text-decoration:none; color: #585858; background: #32a7c8 !important;}
+#custommenu .yui3-menu-horizontal ul {font-size: 1.2em; padding: 4px 0; }
+#custommenu .yui3-menu-horizontal ul li{background:url(image.php?theme=obu&image=nav-divider&component=theme) no-repeat right bottom;}
+#custommenu .yui3-menu-horizontal ul ul{font-size: .9em;font-weight: normal;text-transform:lowercase; background: #32a7c8; color: #fff}
+#custommenu .yui3-menu-horizontal ul ul li{font-size: .9em; min-width: 180px; padding: 0;background-image: none !important;}
+#custommenu .yui3-menu-content ul.first-of-type li {background:url(image.php?theme=obu&image=nav-divider&component=theme) no-repeat right bottom;color: #fff; margin: 0 0 0 0;font-weight: bold;}
+#custommenu div.yui3-menu.custom_menu_submenu .yui3-menu-content { background:#32a7c8; }
+#custommenu div.yui3-menu.custom_menu_submenu .yui3-menu-content a { color: #fff; font-size: 1em;padding: 0 10px;color: #fff; font-size: 1.15em; font-weight: bold; line-height: 2em; text-decoration: none; }
+#custommenu div.yui3-menu.custom_menu_submenu .yui3-menu-content a:hover{ text-decoration: underline; color: #fff ; padding: 0 10px;}
+#custommenu .yui3-menu-horizontal.javascript-disabled .yui3-menu-content,
+#custommenu .yui3-menu-horizontal.javascript-disabled .yui3-menu-content .ul { border-width:0;}
+.yui3-skin-sam .yui3-menu-label-active, 
+.yui3-skin-sam .yui3-menu-label-menuvisible, 
+.yui3-skin-sam .yui3-menu .yui3-menu .yui3-menu-label-active, 
+.yui3-skin-sam .yui3-menu .yui3-menu .yui3-menu-label-menuvisible {background: #32a7c8 !important;color: #fff !important;}
+.yui3-skin-sam .yui3-menu-horizontal .yui3-menu-content { background: none ;}
+.yui3-skin-sam .yui3-menu-horizontal .yui3-menu-label {background: none;}
+.yui3-skin-sam #custommenu .yui3-menu-horizontal .yui3-menu-content, .yui3-skin-sam #custommenu .yui3-menu-horizontal .yui3-menu-label {background: transparent;}
+.yui3-skin-sam .yui3-menu-horizontal .yui3-menu-label, .yui3-skin-sam .yui3-menu-horizontal .yui3-menu-content{background-image: none;}

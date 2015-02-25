@@ -1,0 +1,46 @@
+<!--
+/******************************************************************************
+ *                                                                            *
+ * Copyright (c) 1999-2013 Blackboard Inc., All Rights Reserved.              *
+ *                                                                            *
+ * COPYRIGHT:                                                                 *
+ *      This software is the property of Blackboard Inc.                      *
+ *      You can redistribute it and/or modify it under the terms of           *
+ *      the GNU General Public License as published by the                    *
+ *      Free Software Foundation.                                             *
+ *                                                                            *
+ * WARRANTIES:                                                                *
+ *      This software is distributed in the hope that it will be useful,      *
+ *      but WITHOUT ANY WARRANTY; without even the implied warranty of        *
+ *      MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the         *
+ *      GNU General Public License for more details.                          *
+ *                                                                            *
+ *      You should have received a copy of the GNU General Public License     *
+ *      along with the Blackboard Instant Messenger Moodle Integration;       *
+ *      if not, write to the Free Software Foundation, Inc.,                  *
+ *      51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA                *
+ *                                                                            *
+ * Author: Jonathan Abourbih                                                  *
+ *                                                                            *
+ ******************************************************************************/
+ -->
+<XMLDB PATH="mod/pronto/db" VERSION="20060905" COMMENT="XMLDB file for Moodle mod/pronto"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="../../../lib/xmldb/xmldb.xsd">
+  <TABLES>
+    <TABLE NAME="pronto" COMMENT="Defines prontos">
+      <FIELDS>
+        <FIELD NAME="id" TYPE="int" LENGTH="10" NOTNULL="true" UNSIGNED="true" SEQUENCE="true" NEXT="course"/>
+        <FIELD NAME="course" TYPE="int" LENGTH="10" NOTNULL="true" UNSIGNED="true" DEFAULT="0" SEQUENCE="false" PREVIOUS="id" NEXT="name"/>
+        <FIELD NAME="name" TYPE="char" LENGTH="255" NOTNULL="true" SEQUENCE="false" PREVIOUS="course" NEXT="timemodified"/>
+        <FIELD NAME="timemodified" TYPE="int" LENGTH="10" NOTNULL="true" UNSIGNED="true" DEFAULT="0" SEQUENCE="false" PREVIOUS="name"/>
+      </FIELDS>
+      <KEYS>
+        <KEY NAME="primary" TYPE="primary" FIELDS="id" COMMENT="Primary key for pronto"/>
+      </KEYS>
+      <INDEXES>
+        <INDEX NAME="course" UNIQUE="false" FIELDS="course"/>
+      </INDEXES>
+    </TABLE>
+  </TABLES>
+</XMLDB>

@@ -1,0 +1,337 @@
+Registering sniffs in moodle standard... DONE (56 sniffs registered)
+Creating file list... DONE (14 files in queue)
+Changing into directory /var/www/moodle23/html/repository/cla_survey
+Processing cla_survey_js.php [232 tokens in 119 lines]... DONE in < 1 second (0 errors, 0 warnings)
+Processing cla_survey.php [3454 tokens in 369 lines]... DONE in < 1 second (0 errors, 96 warnings)
+Processing lib.php [836 tokens in 182 lines]... DONE in < 1 second (0 errors, 13 warnings)
+Changing into directory /var/www/moodle23/html/repository/cla_survey/db
+Processing upgrade.php [167 tokens in 57 lines]... DONE in < 1 second (0 errors, 6 warnings)
+Processing access.php [84 tokens in 36 lines]... DONE in < 1 second (0 errors, 0 warnings)
+Processing install.php [175 tokens in 52 lines]... DONE in < 1 second (0 errors, 0 warnings)
+Changing into directory /var/www/moodle23/html/repository/cla_survey
+Processing version.php [117 tokens in 37 lines]... DONE in < 1 second (0 errors, 0 warnings)
+Processing cla_survey_form.php [863 tokens in 255 lines]... DONE in < 1 second (0 errors, 0 warnings)
+Changing into directory /var/www/moodle23/html/repository/cla_survey/lang/en
+Processing repository_cla_survey.php [461 tokens in 72 lines]... DONE in < 1 second (0 errors, 0 warnings)
+Changing into directory /var/www/moodle23/html/repository/cla_survey
+Processing locallib.php [962 tokens in 160 lines]... DONE in < 1 second (0 errors, 25 warnings)
+Processing lib20.php [91 tokens in 48 lines]... DONE in < 1 second (0 errors, 0 warnings)
+Processing lib23.php [93 tokens in 48 lines]... DONE in < 1 second (0 errors, 1 warnings)
+Changing into directory /var/www/moodle23/html/repository/cla_survey/cli
+Processing cla_survey_cli.php [57 tokens in 33 lines]... DONE in < 1 second (0 errors, 0 warnings)
+Changing into directory /var/www/moodle23/html/repository/cla_survey
+Processing cla_survey.js [2153 tokens in 304 lines]... DONE in 1 second (0 errors, 0 warnings)
+
+FILE: /var/www/moodle23/html/repository/cla_survey/cla_survey.php
+--------------------------------------------------------------------------------
+FOUND 0 ERROR(S) AND 96 WARNING(S) AFFECTING 58 LINE(S)
+--------------------------------------------------------------------------------
+  28 | WARNING | Inline comments must start with a capital letter, digit or
+     |         | 3-dots sequence
+  28 | WARNING | Inline comments must end in  full-stops, exclamation marks, or
+     |         | question marks
+  31 | WARNING | Inline comments must start with a capital letter, digit or
+     |         | 3-dots sequence
+  32 | WARNING | Inline comments must end in  full-stops, exclamation marks, or
+     |         | question marks
+  36 | WARNING | Inline comments must start with a capital letter, digit or
+     |         | 3-dots sequence
+  36 | WARNING | Inline comments must end in  full-stops, exclamation marks, or
+     |         | question marks
+  36 | WARNING | This comment is 60% valid code; is this commented out code?
+  39 | WARNING | Inline comments must start with a capital letter, digit or
+     |         | 3-dots sequence
+  42 | WARNING | Inline comments must end in  full-stops, exclamation marks, or
+     |         | question marks
+  44 | WARNING | Inline comments must start with a capital letter, digit or
+     |         | 3-dots sequence
+  45 | WARNING | Inline comments must end in  full-stops, exclamation marks, or
+     |         | question marks
+  47 | WARNING | Inline comments must start with a capital letter, digit or
+     |         | 3-dots sequence
+  47 | WARNING | Inline comments must end in  full-stops, exclamation marks, or
+     |         | question marks
+  53 | WARNING | Inline comments must start with a capital letter, digit or
+     |         | 3-dots sequence
+  53 | WARNING | Inline comments must end in  full-stops, exclamation marks, or
+     |         | question marks
+  55 | WARNING | Inline comments must start with a capital letter, digit or
+     |         | 3-dots sequence
+  55 | WARNING | Inline comments must end in  full-stops, exclamation marks, or
+     |         | question marks
+  59 | WARNING | Inline comments must start with a capital letter, digit or
+     |         | 3-dots sequence
+  59 | WARNING | Inline comments must end in  full-stops, exclamation marks, or
+     |         | question marks
+  69 | WARNING | Inline comments must start with a capital letter, digit or
+     |         | 3-dots sequence
+  70 | WARNING | Inline comments must end in  full-stops, exclamation marks, or
+     |         | question marks
+  73 | WARNING | Inline comments must start with a capital letter, digit or
+     |         | 3-dots sequence
+  74 | WARNING | Inline comments must end in  full-stops, exclamation marks, or
+     |         | question marks
+  77 | WARNING | Inline comments must start with a capital letter, digit or
+     |         | 3-dots sequence
+  80 | WARNING | Inline comments must end in  full-stops, exclamation marks, or
+     |         | question marks
+  82 | WARNING | Inline comments must start with a capital letter, digit or
+     |         | 3-dots sequence
+  82 | WARNING | Inline comments must end in  full-stops, exclamation marks, or
+     |         | question marks
+  84 | WARNING | Inline comments must start with a capital letter, digit or
+     |         | 3-dots sequence
+  84 | WARNING | Inline comments must end in  full-stops, exclamation marks, or
+     |         | question marks
+  87 | WARNING | Inline comments must start with a capital letter, digit or
+     |         | 3-dots sequence
+  87 | WARNING | Inline comments must end in  full-stops, exclamation marks, or
+     |         | question marks
+ 112 | WARNING | Inline comments must start with a capital letter, digit or
+     |         | 3-dots sequence
+ 112 | WARNING | Inline comments must end in  full-stops, exclamation marks, or
+     |         | question marks
+ 113 | WARNING | Line exceeds 132 characters; contains 141 characters
+ 120 | WARNING | Inline comments must start with a capital letter, digit or
+     |         | 3-dots sequence
+ 120 | WARNING | Inline comments must end in  full-stops, exclamation marks, or
+     |         | question marks
+ 145 | WARNING | Inline comments must start with a capital letter, digit or
+     |         | 3-dots sequence
+ 145 | WARNING | Inline comments must end in  full-stops, exclamation marks, or
+     |         | question marks
+ 166 | WARNING | Inline comments must start with a capital letter, digit or
+     |         | 3-dots sequence
+ 166 | WARNING | Inline comments must end in  full-stops, exclamation marks, or
+     |         | question marks
+ 182 | WARNING | Inline comments must start with a capital letter, digit or
+     |         | 3-dots sequence
+ 182 | WARNING | Inline comments must end in  full-stops, exclamation marks, or
+     |         | question marks
+ 185 | WARNING | Inline comments must start with a capital letter, digit or
+     |         | 3-dots sequence
+ 187 | WARNING | Inline comments must end in  full-stops, exclamation marks, or
+     |         | question marks
+ 193 | WARNING | Inline comments must start with a capital letter, digit or
+     |         | 3-dots sequence
+ 195 | WARNING | Inline comments must end in  full-stops, exclamation marks, or
+     |         | question marks
+ 197 | WARNING | Inline comments must end in  full-stops, exclamation marks, or
+     |         | question marks
+ 210 | WARNING | Inline comments must start with a capital letter, digit or
+     |         | 3-dots sequence
+ 210 | WARNING | Inline comments must end in  full-stops, exclamation marks, or
+     |         | question marks
+ 229 | WARNING | Inline comments must start with a capital letter, digit or
+     |         | 3-dots sequence
+ 229 | WARNING | Inline comments must end in  full-stops, exclamation marks, or
+     |         | question marks
+ 237 | WARNING | Inline comments must start with a capital letter, digit or
+     |         | 3-dots sequence
+ 237 | WARNING | Inline comments must end in  full-stops, exclamation marks, or
+     |         | question marks
+ 242 | WARNING | Inline comments must start with a capital letter, digit or
+     |         | 3-dots sequence
+ 242 | WARNING | Inline comments must end in  full-stops, exclamation marks, or
+     |         | question marks
+ 244 | WARNING | Inline comments must start with a capital letter, digit or
+     |         | 3-dots sequence
+ 244 | WARNING | Inline comments must end in  full-stops, exclamation marks, or
+     |         | question marks
+ 250 | WARNING | Inline comments must start with a capital letter, digit or
+     |         | 3-dots sequence
+ 251 | WARNING | Inline comments must end in  full-stops, exclamation marks, or
+     |         | question marks
+ 254 | WARNING | Inline comments must start with a capital letter, digit or
+     |         | 3-dots sequence
+ 254 | WARNING | Inline comments must end in  full-stops, exclamation marks, or
+     |         | question marks
+ 254 | WARNING | This comment is 62% valid code; is this commented out code?
+ 258 | WARNING | Inline comments must start with a capital letter, digit or
+     |         | 3-dots sequence
+ 258 | WARNING | Inline comments must end in  full-stops, exclamation marks, or
+     |         | question marks
+ 272 | WARNING | Inline comments must start with a capital letter, digit or
+     |         | 3-dots sequence
+ 272 | WARNING | Inline comments must end in  full-stops, exclamation marks, or
+     |         | question marks
+ 278 | WARNING | Inline comments must start with a capital letter, digit or
+     |         | 3-dots sequence
+ 278 | WARNING | Inline comments must end in  full-stops, exclamation marks, or
+     |         | question marks
+ 278 | WARNING | This comment is 67% valid code; is this commented out code?
+ 286 | WARNING | Inline comments must start with a capital letter, digit or
+     |         | 3-dots sequence
+ 286 | WARNING | Inline comments must end in  full-stops, exclamation marks, or
+     |         | question marks
+ 288 | WARNING | Inline comments must start with a capital letter, digit or
+     |         | 3-dots sequence
+ 288 | WARNING | Inline comments must end in  full-stops, exclamation marks, or
+     |         | question marks
+ 291 | WARNING | Inline comments must end in  full-stops, exclamation marks, or
+     |         | question marks
+ 294 | WARNING | Inline comments must start with a capital letter, digit or
+     |         | 3-dots sequence
+ 294 | WARNING | Inline comments must end in  full-stops, exclamation marks, or
+     |         | question marks
+ 305 | WARNING | Inline comments must end in  full-stops, exclamation marks, or
+     |         | question marks
+ 318 | WARNING | Inline comments must start with a capital letter, digit or
+     |         | 3-dots sequence
+ 318 | WARNING | Inline comments must end in  full-stops, exclamation marks, or
+     |         | question marks
+ 325 | WARNING | Inline comments must start with a capital letter, digit or
+     |         | 3-dots sequence
+ 325 | WARNING | Inline comments must end in  full-stops, exclamation marks, or
+     |         | question marks
+ 327 | WARNING | Inline comments must start with a capital letter, digit or
+     |         | 3-dots sequence
+ 327 | WARNING | Inline comments must end in  full-stops, exclamation marks, or
+     |         | question marks
+ 329 | WARNING | Inline comments must start with a capital letter, digit or
+     |         | 3-dots sequence
+ 329 | WARNING | Inline comments must end in  full-stops, exclamation marks, or
+     |         | question marks
+ 335 | WARNING | Inline comments must start with a capital letter, digit or
+     |         | 3-dots sequence
+ 335 | WARNING | Inline comments must end in  full-stops, exclamation marks, or
+     |         | question marks
+ 341 | WARNING | Inline comments must start with a capital letter, digit or
+     |         | 3-dots sequence
+ 341 | WARNING | Inline comments must end in  full-stops, exclamation marks, or
+     |         | question marks
+ 360 | WARNING | Inline comments must start with a capital letter, digit or
+     |         | 3-dots sequence
+ 360 | WARNING | Inline comments must end in  full-stops, exclamation marks, or
+     |         | question marks
+ 360 | WARNING | This comment is 67% valid code; is this commented out code?
+ 362 | WARNING | Inline comments must start with a capital letter, digit or
+     |         | 3-dots sequence
+ 362 | WARNING | Inline comments must end in  full-stops, exclamation marks, or
+     |         | question marks
+ 364 | WARNING | Inline comments must start with a capital letter, digit or
+     |         | 3-dots sequence
+ 365 | WARNING | Inline comments must end in  full-stops, exclamation marks, or
+     |         | question marks
+--------------------------------------------------------------------------------
+
+
+FILE: /var/www/moodle23/html/repository/cla_survey/db/upgrade.php
+--------------------------------------------------------------------------------
+FOUND 0 ERROR(S) AND 6 WARNING(S) AFFECTING 4 LINE(S)
+--------------------------------------------------------------------------------
+ 37 | WARNING | Inline comments must start with a capital letter, digit or
+    |         | 3-dots sequence
+ 37 | WARNING | Inline comments must end in  full-stops, exclamation marks, or
+    |         | question marks
+ 39 | WARNING | Inline comments must start with a capital letter, digit or
+    |         | 3-dots sequence
+ 39 | WARNING | Inline comments must end in  full-stops, exclamation marks, or
+    |         | question marks
+ 49 | WARNING | Inline comments must end in  full-stops, exclamation marks, or
+    |         | question marks
+ 52 | WARNING | Inline comments must end in  full-stops, exclamation marks, or
+    |         | question marks
+--------------------------------------------------------------------------------
+
+
+FILE: /var/www/moodle23/html/repository/cla_survey/lib.php
+--------------------------------------------------------------------------------
+FOUND 0 ERROR(S) AND 13 WARNING(S) AFFECTING 7 LINE(S)
+--------------------------------------------------------------------------------
+  87 | WARNING | Inline comments must end in  full-stops, exclamation marks, or
+     |         | question marks
+  92 | WARNING | Inline comments must start with a capital letter, digit or
+     |         | 3-dots sequence
+  92 | WARNING | Inline comments must end in  full-stops, exclamation marks, or
+     |         | question marks
+ 109 | WARNING | Inline comments must start with a capital letter, digit or
+     |         | 3-dots sequence
+ 109 | WARNING | Inline comments must end in  full-stops, exclamation marks, or
+     |         | question marks
+ 122 | WARNING | Inline comments must start with a capital letter, digit or
+     |         | 3-dots sequence
+ 122 | WARNING | Inline comments must end in  full-stops, exclamation marks, or
+     |         | question marks
+ 127 | WARNING | Inline comments must start with a capital letter, digit or
+     |         | 3-dots sequence
+ 127 | WARNING | Inline comments must end in  full-stops, exclamation marks, or
+     |         | question marks
+ 132 | WARNING | Inline comments must start with a capital letter, digit or
+     |         | 3-dots sequence
+ 132 | WARNING | Inline comments must end in  full-stops, exclamation marks, or
+     |         | question marks
+ 175 | WARNING | Inline comments must start with a capital letter, digit or
+     |         | 3-dots sequence
+ 175 | WARNING | Inline comments must end in  full-stops, exclamation marks, or
+     |         | question marks
+--------------------------------------------------------------------------------
+
+
+FILE: /var/www/moodle23/html/repository/cla_survey/lib23.php
+--------------------------------------------------------------------------------
+FOUND 0 ERROR(S) AND 1 WARNING(S) AFFECTING 1 LINE(S)
+--------------------------------------------------------------------------------
+ 33 | WARNING | Duplicate class name "repository_cla_survey_ext" found; first
+    |         | defined in
+    |         | /var/www/moodle23/html/repository/cla_survey/lib20.php on line
+    |         | 33
+--------------------------------------------------------------------------------
+
+
+FILE: /var/www/moodle23/html/repository/cla_survey/locallib.php
+--------------------------------------------------------------------------------
+FOUND 0 ERROR(S) AND 25 WARNING(S) AFFECTING 16 LINE(S)
+--------------------------------------------------------------------------------
+  36 | WARNING | Inline comments must start with a capital letter, digit or
+     |         | 3-dots sequence
+  36 | WARNING | Inline comments must end in  full-stops, exclamation marks, or
+     |         | question marks
+  38 | WARNING | Inline comments must start with a capital letter, digit or
+     |         | 3-dots sequence
+  40 | WARNING | Inline comments must end in  full-stops, exclamation marks, or
+     |         | question marks
+  43 | WARNING | Inline comments must start with a capital letter, digit or
+     |         | 3-dots sequence
+  43 | WARNING | Inline comments must end in  full-stops, exclamation marks, or
+     |         | question marks
+  69 | WARNING | Inline comments must start with a capital letter, digit or
+     |         | 3-dots sequence
+  69 | WARNING | Inline comments must end in  full-stops, exclamation marks, or
+     |         | question marks
+  78 | WARNING | Inline comments must start with a capital letter, digit or
+     |         | 3-dots sequence
+  78 | WARNING | Inline comments must end in  full-stops, exclamation marks, or
+     |         | question marks
+  80 | WARNING | Inline comments must start with a capital letter, digit or
+     |         | 3-dots sequence
+  80 | WARNING | Inline comments must end in  full-stops, exclamation marks, or
+     |         | question marks
+  85 | WARNING | Inline comments must start with a capital letter, digit or
+     |         | 3-dots sequence
+  85 | WARNING | Inline comments must end in  full-stops, exclamation marks, or
+     |         | question marks
+  89 | WARNING | Inline comments must end in  full-stops, exclamation marks, or
+     |         | question marks
+  91 | WARNING | Inline comments must start with a capital letter, digit or
+     |         | 3-dots sequence
+  91 | WARNING | Inline comments must end in  full-stops, exclamation marks, or
+     |         | question marks
+ 101 | WARNING | Inline comments must start with a capital letter, digit or
+     |         | 3-dots sequence
+ 101 | WARNING | Inline comments must end in  full-stops, exclamation marks, or
+     |         | question marks
+ 105 | WARNING | Inline comments must end in  full-stops, exclamation marks, or
+     |         | question marks
+ 110 | WARNING | Inline comments must start with a capital letter, digit or
+     |         | 3-dots sequence
+ 110 | WARNING | Inline comments must end in  full-stops, exclamation marks, or
+     |         | question marks
+ 112 | WARNING | Inline comments must end in  full-stops, exclamation marks, or
+     |         | question marks
+ 117 | WARNING | Inline comments must start with a capital letter, digit or
+     |         | 3-dots sequence
+ 118 | WARNING | Inline comments must end in  full-stops, exclamation marks, or
+     |         | question marks
+--------------------------------------------------------------------------------
+

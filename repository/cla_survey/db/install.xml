@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<XMLDB PATH="repository/cla_survey/db" VERSION="20140128" COMMENT="XMLDB file for Moodle repository/cla_survey"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="../../../lib/xmldb/xmldb.xsd"
+>
+  <TABLES>
+    <TABLE NAME="repository_cla_survey" COMMENT="CLA Survey Repository DB">
+      <FIELDS>
+        <FIELD NAME="id" TYPE="int" LENGTH="11" NOTNULL="true" UNSIGNED="true" SEQUENCE="true" NEXT="thedate"/>
+        <FIELD NAME="thedate" TYPE="int" LENGTH="11" NOTNULL="false" SEQUENCE="false" PREVIOUS="id" NEXT="ipaddr"/>
+        <FIELD NAME="ipaddr" TYPE="char" LENGTH="16" NOTNULL="false" SEQUENCE="false" PREVIOUS="thedate" NEXT="datagathering"/>
+        <FIELD NAME="datagathering" TYPE="char" LENGTH="10" NOTNULL="true" DEFAULT="FE-14_MDLT" SEQUENCE="false" PREVIOUS="ipaddr" NEXT="account"/>
+        <FIELD NAME="account" TYPE="char" LENGTH="30" NOTNULL="true" SEQUENCE="false" PREVIOUS="datagathering" NEXT="site"/>
+        <FIELD NAME="site" TYPE="char" LENGTH="2" NOTNULL="true" DEFAULT="s1" SEQUENCE="false" PREVIOUS="account" NEXT="device"/>
+        <FIELD NAME="device" TYPE="char" LENGTH="2" NOTNULL="true" DEFAULT="01" SEQUENCE="false" PREVIOUS="site" NEXT="nil"/>
+        <FIELD NAME="nil" TYPE="int" LENGTH="1" NOTNULL="true" UNSIGNED="false" DEFAULT="0" SEQUENCE="false" PREVIOUS="device" NEXT="title"/>
+        <FIELD NAME="title" TYPE="char" LENGTH="254" NOTNULL="true" SEQUENCE="false" PREVIOUS="nil" NEXT="istitleuri"/>
+        <FIELD NAME="istitleuri" TYPE="int" LENGTH="11" NOTNULL="true" UNSIGNED="false" SEQUENCE="false" PREVIOUS="title" NEXT="publisher"/>
+        <FIELD NAME="publisher" TYPE="char" LENGTH="180" NOTNULL="true" SEQUENCE="false" PREVIOUS="istitleuri" NEXT="author"/>
+        <FIELD NAME="author" TYPE="char" LENGTH="254" NOTNULL="true" UNSIGNED="false" SEQUENCE="false" PREVIOUS="publisher" NEXT="identifier"/>
+        <FIELD NAME="identifier" TYPE="char" LENGTH="13" NOTNULL="true" SEQUENCE="false" PREVIOUS="author" NEXT="identifiertype"/>
+        <FIELD NAME="identifiertype" TYPE="char" LENGTH="4" NOTNULL="true" SEQUENCE="false" PREVIOUS="identifier" NEXT="valid_isn"/>
+        <FIELD NAME="valid_isn" TYPE="char" LENGTH="2" NOTNULL="false" SEQUENCE="false" PREVIOUS="identifiertype" NEXT="publicationtype"/>
+        <FIELD NAME="publicationtype" TYPE="char" LENGTH="50" NOTNULL="true" SEQUENCE="false" PREVIOUS="valid_isn" NEXT="usagetype"/>
+        <FIELD NAME="usagetype" TYPE="char" LENGTH="10" NOTNULL="true" SEQUENCE="false" PREVIOUS="publicationtype" NEXT="copies"/>
+        <FIELD NAME="copies" TYPE="int" LENGTH="11" NOTNULL="true" UNSIGNED="false" SEQUENCE="false" PREVIOUS="usagetype" NEXT="pagefrom"/>
+        <FIELD NAME="pagefrom" TYPE="char" LENGTH="8" NOTNULL="true" SEQUENCE="false" PREVIOUS="copies" NEXT="pageto"/>
+        <FIELD NAME="pageto" TYPE="char" LENGTH="8" NOTNULL="true" SEQUENCE="false" PREVIOUS="pagefrom" NEXT="pagecount"/>
+        <FIELD NAME="pagecount" TYPE="int" LENGTH="11" NOTNULL="true" UNSIGNED="false" SEQUENCE="false" PREVIOUS="pageto" NEXT="broadcast"/>
+        <FIELD NAME="broadcast" TYPE="char" LENGTH="2" NOTNULL="false" SEQUENCE="false" PREVIOUS="pagecount" NEXT="sent"/>
+        <FIELD NAME="sent" TYPE="int" LENGTH="1" NOTNULL="true" UNSIGNED="false" DEFAULT="0" SEQUENCE="false" PREVIOUS="broadcast" NEXT="datesent"/>
+        <FIELD NAME="datesent" TYPE="int" LENGTH="11" NOTNULL="false" DEFAULT="0" SEQUENCE="false" PREVIOUS="sent" NEXT="filesource"/>
+        <FIELD NAME="filesource" TYPE="text" LENGTH="big" NOTNULL="false" SEQUENCE="false" PREVIOUS="datesent"/>
+      </FIELDS>
+      <KEYS>
+        <KEY NAME="primary" TYPE="primary" FIELDS="id" />
+      </KEYS>
+    </TABLE>
+  </TABLES>
+</XMLDB>

@@ -1,0 +1,247 @@
+Registering sniffs in moodle standard... DONE (44 sniffs registered)
+Creating file list... DONE (15 files in queue)
+Processing cla_survey_js.php [232 tokens in 119 lines]... DONE in < 1 second (0 errors, 0 warnings)
+Processing cla_survey.php [3359 tokens in 370 lines]... DONE in < 1 second (47 errors, 5 warnings)
+Processing lib.php [842 tokens in 204 lines]... DONE in < 1 second (36 errors, 1 warnings)
+Processing upgrade.php [167 tokens in 57 lines]... DONE in < 1 second (0 errors, 0 warnings)
+Processing access.php [84 tokens in 36 lines]... DONE in < 1 second (0 errors, 0 warnings)
+Processing install.php [175 tokens in 52 lines]... DONE in < 1 second (0 errors, 0 warnings)
+Processing cla_survey_form_moodle.php [1446 tokens in 182 lines]... DONE in < 1 second (31 errors, 24 warnings)
+Processing version.php [118 tokens in 38 lines]... DONE in < 1 second (0 errors, 0 warnings)
+Processing cla_survey_form.php [871 tokens in 254 lines]... DONE in < 1 second (7 errors, 0 warnings)
+Processing repository_cla_survey.php [461 tokens in 72 lines]... DONE in < 1 second (0 errors, 0 warnings)
+Processing locallib.php [960 tokens in 160 lines]... DONE in < 1 second (0 errors, 0 warnings)
+Processing lib20.php [91 tokens in 48 lines]... DONE in < 1 second (0 errors, 0 warnings)
+Processing lib23.php [93 tokens in 48 lines]... DONE in < 1 second (0 errors, 0 warnings)
+Processing cla_survey_cli.php [58 tokens in 34 lines]... DONE in < 1 second (0 errors, 0 warnings)
+Processing cla_survey.js [2151 tokens in 304 lines]... DONE in 1 second (0 errors, 0 warnings)
+
+FILE: /var/www/moodle21/html/repository/cla_survey/cla_survey.php
+--------------------------------------------------------------------------------
+FOUND 47 ERROR(S) AND 5 WARNING(S) AFFECTING 46 LINE(S)
+--------------------------------------------------------------------------------
+  11 | ERROR   | Line 10 of the opening comment must start "// MERCHANTABILITY
+     |         | or FITNESS FOR A PARTICULAR PURPOSE.  See the".
+  15 | ERROR   | Line 14 of the opening comment must start "// along with
+     |         | Moodle.  If not, see <http://www.gnu.org/licenses/>.".
+  37 | WARNING | This comment is 75% valid code; is this commented out code?
+  61 | ERROR   | Expected "if (...) {\n"; found "if (...){\n"
+  69 | ERROR   | Expected "if (...) {\n"; found "if (...){\n"
+  89 | ERROR   | Expected "if (...) {\n"; found "if (...){\n"
+  90 | ERROR   | Expected "if (...) {\n"; found "if (...){\n"
+  91 | ERROR   | Expected "if (...) {\n"; found "if(...){\n"
+  91 | ERROR   | Empty IF statement detected
+ 111 | WARNING | Line exceeds 132 characters; contains 141 characters
+ 127 | ERROR   | Expected "if (...) {\n"; found "if (...){\n"
+ 128 | ERROR   | Expected "foreach (...) {\n"; found "foreach (...){\n"
+ 138 | ERROR   | Expected "if (...) {\n"; found "if (...){\n"
+ 145 | ERROR   | Expected "if (...) {\n"; found "if (...){\n"
+ 148 | ERROR   | Expected "if (...) {\n"; found "if (...){\n"
+ 149 | ERROR   | Expected "if (...) {\n"; found "if (...){\n"
+ 160 | ERROR   | Expected "foreach (...) {\n"; found "foreach (...){\n"
+ 164 | ERROR   | Expected "if (...) {\n"; found "if (...){\n"
+ 167 | ERROR   | Expected "if (...) {\n"; found "if (...){         //folder\n"
+ 186 | ERROR   | Expected "} else if (...) {\n"; found "}else if (...){
+     |         |          // we have some input to work with\n"
+ 186 | ERROR   | Expected "if (...) {\n"; found "if (...){                  //
+     |         | we have some input to work with\n"
+ 212 | ERROR   | Expected "if (...) {\n"; found "if (...){\n"
+ 213 | ERROR   | Expected "if (...) {\n"; found "if (...){\n"
+ 214 | ERROR   | Expected "if (...) {\n"; found "if (...){\n"
+ 215 | ERROR   | Expected "if (...) {\n"; found "if (...){\n"
+ 217 | ERROR   | Expected "} else if (...) {\n"; found "}else if (...){\n"
+ 217 | ERROR   | Expected "if (...) {\n"; found "if (...){\n"
+ 220 | ERROR   | Expected "} else if (...) {\n"; found "}else if (...){\n"
+ 220 | ERROR   | Expected "if (...) {\n"; found "if (...){\n"
+ 221 | ERROR   | Expected "if (...) {\n"; found "if (...){\n"
+ 223 | ERROR   | Expected "} else if (...) {\n"; found "}else if (...){\n"
+ 223 | ERROR   | Expected "if (...) {\n"; found "if (...){\n"
+ 239 | ERROR   | Expected "if (...) {\n"; found "if (...){\n"
+ 246 | ERROR   | Expected "if (...) {\n"; found "if (...){\n"
+ 247 | ERROR   | Expected "if (...) {\n"; found "if (...){\n"
+ 247 | ERROR   | Empty IF statement detected
+ 252 | ERROR   | Expected "if (...) {\n"; found "if (...){           // upload
+     |         | functionality\n"
+ 256 | WARNING | This comment is 67% valid code; is this commented out code?
+ 260 | ERROR   | Expected "try {\n...} catch (...) {\n"; found "try {\n...}
+     |         | catch (...){\n"
+ 267 | ERROR   | Expected "if (...) {\n"; found "if (...){\n"
+ 268 | ERROR   | Expected "if (...) {\n"; found "if (...){\n"
+ 279 | WARNING | This comment is 100% valid code; is this commented out code?
+ 290 | ERROR   | Expected "if (...) {\n"; found "if (...){\n"
+ 291 | ERROR   | Expected "if (...) {\n"; found "if (...){\n"
+ 292 | ERROR   | Line indented incorrectly; expected at least 12 spaces, found
+     |         | 8
+ 301 | ERROR   | Expected "if (...) {\n"; found "if (...){\n"
+ 314 | ERROR   | Expected "try {\n...} catch (...) {\n"; found "try {\n...}
+     |         | catch (...){\n"
+ 318 | ERROR   | Expected "if (...) {\n"; found "if (...){\n"
+ 330 | ERROR   | Expected "if (...) {\n"; found "if (...){             // this
+     |         | is the selected server file\n"
+ 351 | ERROR   | Expected "if (...) {\n"; found "if (...){\n"
+ 353 | ERROR   | Expected "foreach (...) {\n"; found "foreach (...){\n"
+ 361 | WARNING | This comment is 72% valid code; is this commented out code?
+--------------------------------------------------------------------------------
+
+
+FILE: /var/www/moodle21/html/repository/cla_survey/cla_survey_form.php
+--------------------------------------------------------------------------------
+FOUND 7 ERROR(S) AFFECTING 6 LINE(S)
+--------------------------------------------------------------------------------
+ 42 | ERROR | Expected "if (...) {\n"; found "if (...){\n"
+ 42 | ERROR | Line indented incorrectly; expected 0 spaces, found 32
+ 43 | ERROR | Closing brace must be on a line by itself
+ 52 | ERROR | Line indented incorrectly; expected 0 spaces, found 28
+ 73 | ERROR | Line indented incorrectly; expected 0 spaces, found 32
+ 74 | ERROR | Line indented incorrectly; expected 4 spaces, found 36
+ 76 | ERROR | Line indented incorrectly; expected 4 spaces, found 36
+--------------------------------------------------------------------------------
+
+
+FILE: /var/www/moodle21/html/repository/cla_survey/cla_survey_form_moodle.php
+--------------------------------------------------------------------------------
+FOUND 31 ERROR(S) AND 24 WARNING(S) AFFECTING 36 LINE(S)
+--------------------------------------------------------------------------------
+  52 | WARNING | This comment is 77% valid code; is this commented out code?
+  55 | ERROR   | Commas (,) must be followed by white space.
+  55 | ERROR   | Commas (,) must be followed by white space.
+  58 | ERROR   | Commas (,) must be followed by white space.
+  58 | WARNING | Line exceeds 132 characters; contains 133 characters
+  61 | WARNING | Line exceeds 132 characters; contains 171 characters
+  61 | WARNING | This comment is 70% valid code; is this commented out code?
+  63 | ERROR   | Commas (,) must be followed by white space.
+  66 | ERROR   | Commas (,) must be followed by white space.
+  66 | WARNING | Line exceeds 132 characters; contains 139 characters
+  70 | ERROR   | Commas (,) must be followed by white space.
+  70 | ERROR   | Commas (,) must be followed by white space.
+  70 | WARNING | Line exceeds 132 characters; contains 177 characters
+  89 | ERROR   | Commas (,) must be followed by white space.
+  89 | WARNING | Line exceeds 132 characters; contains 154 characters
+  90 | WARNING | This comment is 86% valid code; is this commented out code?
+  93 | WARNING | Line exceeds 132 characters; contains 138 characters
+ 101 | WARNING | Line exceeds 132 characters; contains 151 characters
+ 102 | ERROR   | Commas (,) must be followed by white space.
+ 102 | WARNING | Line exceeds 132 characters; contains 153 characters
+ 103 | WARNING | Line exceeds 132 characters; contains 159 characters
+ 104 | WARNING | Line exceeds 132 characters; contains 155 characters
+ 108 | ERROR   | Commas (,) must be followed by white space.
+ 108 | ERROR   | Commas (,) must be followed by white space.
+ 111 | ERROR   | Commas (,) must be followed by white space.
+ 111 | WARNING | Line exceeds 132 characters; contains 144 characters
+ 114 | ERROR   | Commas (,) must be followed by white space.
+ 117 | ERROR   | Commas (,) must be followed by white space.
+ 119 | ERROR   | Line indented incorrectly; expected at least 8 spaces, found 0
+ 123 | ERROR   | Commas (,) must be followed by white space.
+ 127 | ERROR   | Line indented incorrectly; expected at least 8 spaces, found 0
+ 130 | ERROR   | Commas (,) must be followed by white space.
+ 130 | ERROR   | Commas (,) must be followed by white space.
+ 133 | ERROR   | Commas (,) must be followed by white space.
+ 133 | WARNING | Line exceeds 132 characters; contains 150 characters
+ 143 | WARNING | Line exceeds 132 characters; contains 150 characters
+ 144 | WARNING | Line exceeds 132 characters; contains 158 characters
+ 145 | WARNING | Line exceeds 132 characters; contains 167 characters
+ 149 | ERROR   | Commas (,) must be followed by white space.
+ 149 | WARNING | Line exceeds 132 characters; contains 144 characters
+ 153 | ERROR   | Commas (,) must be followed by white space.
+ 153 | WARNING | Line exceeds 132 characters; contains 158 characters
+ 157 | ERROR   | Commas (,) must be followed by white space.
+ 157 | WARNING | Line exceeds 132 characters; contains 149 characters
+ 163 | ERROR   | Commas (,) must be followed by white space.
+ 163 | WARNING | Line exceeds 132 characters; contains 144 characters
+ 164 | ERROR   | Commas (,) must be followed by white space.
+ 164 | WARNING | Line exceeds 132 characters; contains 138 characters
+ 165 | ERROR   | Commas (,) must be followed by white space.
+ 171 | ERROR   | Commas (,) must be followed by white space.
+ 171 | ERROR   | Commas (,) must be followed by white space.
+ 171 | WARNING | Line exceeds 132 characters; contains 151 characters
+ 173 | ERROR   | Functions must not contain multiple empty lines in a row;
+     |         | found 2 empty lines
+ 176 | ERROR   | Commas (,) must be followed by white space.
+ 178 | ERROR   | Commas (,) must be followed by white space.
+--------------------------------------------------------------------------------
+
+
+FILE: /var/www/moodle21/html/repository/cla_survey/lib.php
+--------------------------------------------------------------------------------
+FOUND 36 ERROR(S) AND 1 WARNING(S) AFFECTING 36 LINE(S)
+--------------------------------------------------------------------------------
+  30 | ERROR   | Expected "if (...) {\n"; found "if (...){\n"
+  60 | ERROR   | Expected 1 space between the closing parenthesis and the
+     |         | opening brace; found 0
+  76 | ERROR   | Expected 1 space between the closing parenthesis and the
+     |         | opening brace; found 0
+  86 | ERROR   | Expected "if (...) {\n"; found "if (...){\n"
+ 104 | ERROR   | Expected 1 space between the closing parenthesis and the
+     |         | opening brace; found 0
+ 105 | ERROR   | Expected "if (...) {\n"; found "if (...){\n"
+ 118 | ERROR   | Expected 1 space between the closing parenthesis and the
+     |         | opening brace; found 0
+ 123 | ERROR   | Expected "if (...) {\n"; found "if (...){\n"
+ 142 | ERROR   | Expected 1 space between the closing parenthesis and the
+     |         | opening brace; found 0
+ 151 | ERROR   | Expected 1 space between the closing parenthesis and the
+     |         | opening brace; found 0
+ 160 | ERROR   | Expected 1 space between the closing parenthesis and the
+     |         | opening brace; found 0
+ 172 | ERROR   | Expected 1 space between the closing parenthesis and the
+     |         | opening brace; found 0
+ 173 | ERROR   | Expected "if (...) {\n"; found "if (...){\n"
+ 174 | ERROR   | Expected "if (...) {\n"; found "if (...){\n"
+ 175 | ERROR   | Line indented incorrectly; expected at least 16 spaces, found
+     |         | 0
+ 176 | ERROR   | Line indented incorrectly; expected at least 16 spaces, found
+     |         | 0
+ 177 | ERROR   | Line indented incorrectly; expected at least 16 spaces, found
+     |         | 0
+ 178 | ERROR   | Line indented incorrectly; expected at least 16 spaces, found
+     |         | 0
+ 179 | ERROR   | Line indented incorrectly; expected at least 16 spaces, found
+     |         | 0
+ 180 | ERROR   | Line indented incorrectly; expected at least 16 spaces, found
+     |         | 0
+ 181 | ERROR   | Line indented incorrectly; expected at least 16 spaces, found
+     |         | 0
+ 182 | ERROR   | Line indented incorrectly; expected at least 16 spaces, found
+     |         | 0
+ 183 | ERROR   | Line indented incorrectly; expected at least 16 spaces, found
+     |         | 0
+ 184 | ERROR   | Line indented incorrectly; expected at least 16 spaces, found
+     |         | 0
+ 185 | ERROR   | Line indented incorrectly; expected at least 16 spaces, found
+     |         | 0
+ 186 | ERROR   | Line indented incorrectly; expected at least 16 spaces, found
+     |         | 0
+ 187 | ERROR   | Line indented incorrectly; expected at least 16 spaces, found
+     |         | 0
+ 188 | ERROR   | Line indented incorrectly; expected at least 16 spaces, found
+     |         | 0
+ 189 | ERROR   | Line indented incorrectly; expected at least 16 spaces, found
+     |         | 0
+ 190 | ERROR   | Line indented incorrectly; expected at least 16 spaces, found
+     |         | 0
+ 191 | ERROR   | Line indented incorrectly; expected at least 16 spaces, found
+     |         | 0
+ 192 | ERROR   | Line indented incorrectly; expected at least 16 spaces, found
+     |         | 0
+ 194 | ERROR   | Line indented incorrectly; expected at least 16 spaces, found
+     |         | 0
+ 195 | ERROR   | Line indented incorrectly; expected at least 16 spaces, found
+     |         | 0
+ 197 | WARNING | This comment is 54% valid code; is this commented out code?
+ 197 | ERROR   | Line indented incorrectly; expected at least 12 spaces, found
+     |         | 0
+ 198 | ERROR   | Line indented incorrectly; expected at least 12 spaces, found
+     |         | 0
+--------------------------------------------------------------------------------
+
+
+FILE: /var/www/moodle21/html/repository/cla_survey/lib23.php
+--------------------------------------------------------------------------------
+FOUND 0 ERROR(S) AND 1 WARNING(S) AFFECTING 1 LINE(S)
+--------------------------------------------------------------------------------
+ 33 | WARNING | Duplicate class name "repository_cla_survey_ext" found; first
+    |         | defined in
+    |         | /var/www/moodle21/html/repository/cla_survey/lib20.php on line
+    |         | 33
+--------------------------------------------------------------------------------
+

@@ -1,0 +1,5 @@
+.que.vmatch .feedback .rightanswer * {
+    display: inline;
+}
+table.answer {width:100%;}
+table.answer select {width:100%;}

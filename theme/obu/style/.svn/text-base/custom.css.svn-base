@@ -1,0 +1,66 @@
+/********************************************************
+**
+** Theme name: Custom
+** Creation Date: June 2011
+** Author: ULCC
+** Author URI: http://www.ulcc.ac.uk
+**
+*********************************************************/
+
+/** Background color/images **/
+html {background-color:[[setting:bodybgcolor]];}
+* { font-family: Helvetica,Arial,FreeSans,sans-serif; }
+
+/** Link colours **/
+a:link,
+a:visited {color:[[setting:linkcolor]];}
+a:hover {color:[[setting:linkhover]];}
+
+/** Button colours **/
+input[type=submit] {background:[[setting:buttonsbgcolor]];}
+
+/** Page layout **/
+
+/** Page Header **/
+.logininfo {background: [[setting:blockbgcolor]]; border-style: dotted none; border-color:[[setting:blockbgheading]]; border-width: 1px; padding: 5px 10px; }
+
+/* Defining fluid or fixed theme.. for fluid theme change width to 100%, change the page-footer's width accordingly */
+#page{width: 90%;}
+
+/* Blocks
+-----------------------*/ 
+.block {border-color:[[setting:blockbordercolor]];}
+.block .header .title {background:[[setting:blockbgheading]];color: [[setting:blockheadingcolor]]; }
+.block .content {background:[[setting:blockbgcolor]];}
+
+/* Calendar
+----------------------*/
+.minicalendar td, .minicalendar th {border-color: [[setting:blockbgcolor]]; }
+
+
+/* Custom Menu
+-----------------------*/
+#custommenu .yui3-menu-horizontal ul {background: [[setting:blockbgheading]]; color: [[setting:blockheadingcolor]]; }
+#custommenu a:link,#custommenu a:visited {color: [[setting:blockheadingcolor]];}
+#custommenu a:active, #custommenu a:hover { color: [[setting:footercolor]]; background: [[setting:blockbgheading]] !important;}
+#custommenu .yui3-menu-horizontal ul ul{background: [[setting:blockbgheading]]; color:[[setting:footercolor]] !important;}
+#custommenu .yui3-menu-content ul.first-of-type li {color: [[setting:footercolor]] !important; }
+#custommenu div.yui3-menu.custom_menu_submenu .yui3-menu-content { background: [[setting:blockbgheading]]; color: [[setting:blockheadingcolor]] !important;}
+.yui3-skin-sam .yui3-menu-label-active,
+.yui3-skin-sam .yui3-menu-label-menuvisible,
+.yui3-skin-sam .yui3-menu .yui3-menu .yui3-menu-label-active, .yui3-skin-sam .yui3-menu .yui3-menu .yui3-menu-label-menuvisible {background: [[setting:blockbgheading]] !important;color: [[setting:blockheadingcolor]] !important;}
+#custommenu div.yui3-menu.custom_menu_submenu .yui3-menu-content a { color: [[setting:blockheadingcolor]];}
+#custommenu div.yui3-menu.custom_menu_submenu .yui3-menu-content a:hover { color: [[setting:blockheadingcolor]];}
+
+/* Login Box
+-----------------------*/
+.loginbox { -moz-border-radius: 5px; background:url([[pix:theme|login]]) no-repeat top right  [[setting:blockbgcolor]];}
+
+
+/* Footer
+-----------------------*/
+#page-footer { border-top: 1px dotted [[setting:blockbgheading]]; height: 50px; width: 90%; background: [[setting:blockbgcolor]]; }
+
+
+/** Custom CSS **/
+[[setting:customcss]]

@@ -1,0 +1,266 @@
+/********************************************************
+**
+** Theme name: Oxford Brookes Unviersity
+** Creation Date: January 2012
+** Author: ULCC
+** Author URI: http://www.ulcc.ac.uk
+**
+*********************************************************/
+
+/** Background color/images **/
+body{font-size: 14px; background-color: #fff;}
+
+/** Link colours **/
+a:link,
+a:visited {color:[[setting:linkcolor]];}
+a:hover {color:[[setting:linkhover]]; text-decoration:underline;}
+
+/** Button colours **/
+input[type=submit] {background:[[setting:buttonsbgcolor]]; border: none; border-radius: 0; cursor: pointer;}
+
+div.singlebutton input[type=submit] {
+  margin: 0;
+}
+
+/** Headings **/
+
+h1, h2, h3,h4,h5,h6{color: #363534}
+h2.main{font-size: 1.8em; font-weight: normal; line-height: 130%; margin: 5px 0 10px;}
+h3.main { background: transparent;}
+
+/** Page layout **/
+
+#page {
+  position: static;
+}
+
+/** Page Header **/
+#page-header{background:#9EAB05;}
+#page-header .logininfo {padding: 5px 10px; color: #fff; font-size: 1.1em;}
+#page-header .logininfo a {color: #fff; text-decoration:underline;}
+#page-header {
+  float: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 90%;
+  padding: 0 5%;
+}
+.navbar{font-size: .9em;}
+
+/* Defining fluid or fixed theme.. for fluid theme change width to 100%, change the page-footer's width accordingly */
+#page{width: 85%;padding: 100px 10px 10px 10px; background:#fff; min-width:0;}
+#page-content{padding: 0; min-width: 0;}
+.pagelayout-report #page { width: 95%;}
+
+/* Blocks
+-----------------------*/ 
+.block_navigation   a, .block_settings .content a{color:#616365 !important; text-decoration:none;}
+.block_navigation  .content a:hover, .block_settings .content a:hover{color:#fff !important; background:#616365;}
+.block{border:0; font-size: .9em;}
+.block .header .title {margin:0; padding: 4px 2px 3px 5px; border:0; text-transform: uppercase; background-color:[[setting:blockbgheading]];}
+.block .header .title h2{ine-height: 150%;}
+.block .header .commands {padding: 0;}
+.block .content {background:[[setting:blockbgcolor]];}
+
+
+/* Courses categories
+-----------------------*/ 
+.region-content .course_category_tree .category_label {background:#8b8d8e; color:#fff; padding: 5px 10px; margin: 7px 0}
+.region-content .course_category_tree .category .category{background:#E0E1DD; }
+.region-content .course_category_tree .category_label  a{color:#fff; padding:0 10px;}
+.course_category_tree .category .course {padding: 5px 0;  }
+.course_category_tree .category.with_children > .category_label {background-position: 5px center;}
+.region-main .unlist li{background:#E0E1DD;padding: 10px;margin: 0 0 10px 0;}
+#region-post .unlist li, #region-pre .unlist li{padding: 3px 0;margin: 0;}
+
+/* Calendar
+----------------------*/
+.path-calendar .maincalendar { margin: 10px 0;}
+.minicalendarblock h3{font-size: 1em;}
+.block_calendar_month .content .minicalendar , .block .minicalendar{font-size: 0.9em;border-collapse: separate; border-spacing: 1px !important;}
+.block_calendar_month .content .calendar-controls a {font-weight: bold;}
+.block_calendar_month .content .minicalendar td {border-color: #FFF;}
+.block_calendar_month .content .minicalendar .day, .block .minicalendar .day{color: #000;border: 1px solid #ccc;}
+.block .minicalendar .dayblank {border: 0;}
+.block_calendar_month .content .minicalendar .today, .block .minicalendar .today {border: 2px solid #FF0000;}
+.block_calendar_month .content .minicalendar .weekdays th {border-width: 0;font-weight: bold;color: #000;}
+.block_calendar_month .content .minicalendar .weekdays abbr {border-width: 0;text-decoration: none;}
+.path-calendar .maincalendar .calendar-controls .current {color: #fff;}
+.maincalendar .calendar-controls {background:#8b8d8e;padding: 10px}
+.maincalendar .calendar-controls a {color:#fff;}
+.maincalendar .calendar-controls a:hover {color:#fff; text-decoration:underline;}
+.minicalendarblock h3 {background: #8b8d8e;color: #fff;padding: 3px 0;}
+.minicalendarblock h3 a{color: #fff;}
+.minicalendarblock h3 a:hover{color: #fff;text-decoration:underline;}
+
+/* Forum
+-----------------------*/
+.forumpost{border:1px solid #ddd;}
+.forumpost th, .forumpost td{padding:0}
+.forumpost .author{border:0;}
+.forumpost .topic td{background:#8b8d8e;}
+.forumpost .row .topic{background:#E0E1DD;}
+.forumpost .options .commands {border-top:1px dotted #ddd; font-size:.9em;padding:5px;}
+.forumpost .options .link { font-size:.9em;}
+.forumpost .picture img {margin: 0 5px 0 0;}
+.forumpost .content .posting {font-size:.95em; padding: 10px 10px 10px 0;}
+.forumpost .content .posting  .edited{font-size:.9em;}
+
+/* Course
+---------------------------*/
+#page-site-index .headingblock {
+    background: #616365;
+	color: #FFFFFF !important;
+}
+.path-course-view .headingblock {
+    background: #616365;
+	color: #FFFFFF !important;
+}
+.path-course-view .section .content .weekdates{
+	background: #8b8d8e !important;
+    color: #FFFFFF !important;
+    font-weight: normal !important;
+	padding: 10px !important;
+	margin: 0 0 0 0;
+	font-size: 1.5em;
+}
+.path-course-view .section .content {
+  padding: 0;
+}
+.course-content ul.topics .content,
+.course-content ul.weeks .content {
+  margin: 0 28px 10px !important;
+}
+.course-content .section.main {
+  background: #ddd !important;
+}
+.course-content #section-0 .content {
+  padding: 10px;
+}
+.course-content ul.topics li.section.main,
+.course-content ul.weeks li.section.main {
+  margin: 4px 1px 8px 1px !important;
+}
+#page-course-view-topics #region-main h2,
+#page-course-view-weeks #region-main h2 {
+  background:#616365;
+  color:#fff !important;
+  padding: 20px 0 5px 10px!important;
+}
+#page-course-view-topics #region-main h3,
+#page-course-view-weeks #region-main h3 {
+  /*background: #8b8d8e !important;*/
+  background: #e2e2f2 !important;
+  /*color: #FFFFFF !important;*/
+  color: #363534;
+  font-weight: bold !important;
+  padding: 10px !important;
+  margin: 0;
+}
+#page-course-view-topics #region-main h3 a,
+#page-course-view-weeks #region-main h3 a {
+  color: #363534;
+}
+.mod-indent{padding:2px 0;}
+.course-content ul.topics li.section .right {
+  padding: 0;
+  margin: 10px 0 0 0;
+  text-align: center;
+  display:inline;
+}
+.course-content ul.topics li.section .left {
+  background: transparent;
+  color: #616365;
+  font-size: 1.5em;
+  margin: 0; 
+  width:25px;
+}
+.course-content ul.topics li.section {
+  padding: 0;
+}
+.course-content ul.weeks li.section .right,
+.course-content ul.weeks li.section .left {
+  width: 20px;
+}
+.path-course-view .section .content .section  {
+  margin: 10px 30px;
+}
+.course-content ul.topics li.section .content {	margin:5px 0; padding: 0;}
+.categorylist .category {padding:5px 0 0 0;}
+#page-course-view-topics #region-main p,
+#page-course-view-weeks #region-main p,
+#page-course-view-single #region-main p{margin: 1em 0;}
+.course-content .current {background: #E0E1DD !important;}
+
+/*Course Headings ***/
+#page-course-view-topics #region-main h1,
+#page-course-view-weeks #region-main h1,
+#page-course-view-topics #region-main h2,
+#page-course-view-weeks #region-main h2,
+#page-course-view-topics #region-main h3,
+#page-course-view-weeks #region-main h3,
+#page-course-view-topics #region-main h4,
+#page-course-view-weeks #region-main h4,
+#page-course-view-topics #region-main h5,
+#page-course-view-weeks #region-main h5{font-weight: normal; color: #333333; padding: 10px 0;} 
+#page-course-view-topics #region-main h1,
+#page-course-view-weeks #region-main h1{ font-size: 2em; } 
+#page-course-view-topics #region-main h2,
+#page-course-view-weeks #region-main h2{ font-size: 1.8em;}
+#page-course-view-topics #region-main h3,
+#page-course-view-weeks #region-main h3{font-size: 1.3em;}
+#page-course-view-topics #region-main h4,
+#page-course-view-weeks #region-main h4{font-size: 1.3em; }
+#page-course-view-topics #region-main h5, 
+#page-course-view-weeks #region-main h5{font-size: 1.1em;} 
+
+.mod_book .book_toc_numbered { font-size: 1em;}
+
+/* Custom Menu
+-----------------------*/
+#custommenu .yui3-menu-horizontal ul {background: #9EAB05; color: #fff; font-weight:normal; font-size: .9em;}
+#custommenu a:link,#custommenu a:visited {color: #fff;background: #9EAB05 !important;}
+#custommenu a:active, #custommenu a:hover { color: #363534; background: #9EAB05 !important; }
+#custommenu .yui3-menu-horizontal ul ul{background: #9EAB05; color:#fff !important;}
+#custommenu .yui3-menu-content ul.first-of-type li {color: #fff !important; padding: 0 10px}
+#custommenu div.yui3-menu.custom_menu_submenu .yui3-menu-content { background: #9EAB05; color: #fff !important;}
+.yui3-skin-sam .yui3-menu-label-active,
+.yui3-skin-sam .yui3-menu-label-menuvisible,
+.yui3-skin-sam .yui3-menu .yui3-menu .yui3-menu-label-active, .yui3-skin-sam .yui3-menu .yui3-menu .yui3-menu-label-menuvisible {background: #9EAB05 !important;color: #fff !important;}
+#custommenu div.yui3-menu.custom_menu_submenu .yui3-menu-content a { color: #fff;}
+#custommenu div.yui3-menu.custom_menu_submenu .yui3-menu-content a:hover { color: #fff;}
+
+/* Login Box
+-----------------------*/
+.loginbox { background:#E0E1DD; border-radius:0;}
+
+/* Footer
+-----------------------*/
+#page-footer { width: 85%; color: #ADAFAF;background: #fff; padding:10px;margin: 0 auto;}
+#page-footer .powered {line-height: normal;}
+#page-footer {
+  background-color: #eee;
+  width: 90%;
+  padding: 0 5%;
+  border-top: 1px solid #c3c3c3;
+}
+
+#page-footer.clearfix:after {
+  height: auto;
+}
+
+#page-footer .page-footer-wrapper {
+  padding-top: 1.5em;
+  padding-bottom: 3.5em;
+}
+
+
+
+#region-pre, #region-post tr{border-bottom:0;}
+.initialbar a{padding: 0 3px;}
+label {font-weight: normal;}
+
+
+/** Custom CSS **/
+[[setting:customcss]]

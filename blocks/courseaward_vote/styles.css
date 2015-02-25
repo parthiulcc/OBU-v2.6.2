@@ -1,0 +1,51 @@
+.block_courseaward_vote div.center {
+    text-align: center;
+}
+.block_courseaward_vote div.bgborder, .slightborder {
+    margin: .5em 1em 1em .5em;
+    padding: 0.4em;
+    border: 1px solid rgba(0, 0, 0, .25);
+    background-color: rgba(255, 255, 255, .5);
+
+    -webkit-border-radius:  10px;
+    -moz-border-radius:     10px;
+    border-radius:          10px;
+
+    -webkit-box-shadow: rgba(0, 0, 0, .4) 5px 5px 3px;
+    -moz-box-shadow:    rgba(0, 0, 0, .4) 5px 5px 3px;
+    box-shadow:         rgba(0, 0, 0, .4) 5px 5px 3px;
+
+}
+.block_courseaward_vote img {
+    border: 0;
+}
+.ina { color: #d00; }
+.sat { color: #ff9600; }
+.goo { color: #ee0; }
+.out { color: #0c0; }
+.score, .votetitle {
+    font-weight: bold;
+    font-size: 120%;
+}
+.smaller {
+    font-size: 80%;
+}
+.clear {
+    padding-bottom: 1em;
+}
+.cleartop {
+    padding-top: 1em;
+}
+.votetextarea {
+    font-size: 90%;
+}
+.block_courseaward_vote ul {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    list-style-type: none;
+}
+.block_courseaward_vote .deleted {
+    color: #888;
+}

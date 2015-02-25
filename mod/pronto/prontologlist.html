@@ -1,0 +1,70 @@
+<!doctype html>
+<!--
+/******************************************************************************
+*                                                                            *
+* Copyright (c) 1999-2013 Blackboard Inc., All Rights Reserved.              *
+*                                                                            *
+* COPYRIGHT:                                                                 *
+*      This software is the property of Blackboard Inc.                      *
+*      You can redistribute it and/or modify it under the terms of           *
+*      the GNU General Public License as published by the                    *
+*      Free Software Foundation.                                             *
+*                                                                            *
+* WARRANTIES:                                                                *
+*      This software is distributed in the hope that it will be useful,      *
+*      but WITHOUT ANY WARRANTY; without even the implied warranty of        *
+*      MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the         *
+*      GNU General Public License for more details.                          *
+*                                                                            *
+*      You should have received a copy of the GNU General Public License     *
+*      along with the Blackboard Instant Messenger Moodle Integration;       *
+*      if not, write to the Free Software Foundation, Inc.,                  *
+*      51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA                *
+*                                                                            *
+* Author: Jonathan Abourbih                                                  *
+*                                                                            *
+******************************************************************************/
+-->
+<style>
+    table
+    {
+        font-family: Verdana;
+        font-size:11px;
+        text-align:left;
+    }
+</style>
+
+<table width="100%" border=0 style="font-size:11px;">
+    <tr>
+        <td align="left">
+            <b><?php echo get_string('serverlogs' , 'pronto');?></b> 
+        </td>
+
+        <td align="right">
+            <?php echo html_writer::link($referer, get_string('logback', 'pronto'))?>
+        </td>
+    </tr>
+</table>
+
+<table width='100%' bgcolor='#e7f7f7' cellpadding='30' border=1 cellspacing='0'>
+    <tr>
+        <td>
+<? if (!empty($values)): ?>
+    <?php echo get_string('logsdir' , 'pronto')?>
+    <p><?php echo get_string('loglinks' , 'pronto')?><p>
+    <?php foreach ($values->log_list as $log):?>
+        <?php echo html_writer::link($log->url, $log->filename.' '.$log->size.' b')?><br>
+    <?php endforeach?>
+<? else: ?>
+    <?echo get_string('no_logs' , 'pronto')?>
+<? endif ?>
+        </td>
+    </tr>
+</table>
+<table width="100%" border=0>
+    <tr>
+        <td align="right">
+            <?php echo html_writer::link($referer, get_string('logback', 'pronto'))?>
+        </td>
+    </tr>
+</table>

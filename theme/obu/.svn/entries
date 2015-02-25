@@ -1,0 +1,76 @@
+8
+
+dir
+4678
+https://vcs.ulcc.ac.uk/svn/ulcc/themes/moodle2/custom/base_custom
+https://vcs.ulcc.ac.uk/svn/ulcc
+
+
+
+2011-09-22T11:40:48.412681Z
+4423
+mari.barredo
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+47a076d6-9262-0410-a75c-c7fd43826779
+
+pix
+dir
+
+style
+dir
+
+lang
+dir
+
+settings.php
+file
+
+
+
+
+2011-07-22T14:18:45.000000Z
+a91102c82e6792b61bc2824bcd10d3ec
+2011-06-16T11:19:34.352399Z
+3473
+mari.barredo
+
+config.php
+file
+
+
+
+
+2011-07-22T14:18:45.000000Z
+b39ac6e4fc53be205932412b024d7ff7
+2011-06-16T11:19:34.352399Z
+3473
+mari.barredo
+
+lib.php
+file
+
+
+
+
+2011-07-22T14:18:45.000000Z
+b1c1d0247407b2ae410b57fcd7f8c962
+2011-07-13T09:32:09.560721Z
+3631
+mari.barredo
+
+layout
+dir
+

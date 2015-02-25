@@ -1,0 +1,130 @@
+.ui-body-c {
+  background: #F3F3F3;
+  background-image: none;
+  text-shadow: none;
+}
+.ui-body-d {
+  text-shadow: none;
+}
+.ui-header .ui-title, .ui-footer .ui-title {
+  margin: .8em 90px .6em;
+}
+.ui-header .ui-btn-right {
+  top: 12px;
+  right: 10px;
+}
+.ui-header .ui-btn-icon-left .ui-btn-inner, .ui-footer .ui-btn-icon-left .ui-btn-inner, .ui-bar .ui-btn-icon-left .ui-btn-inner {
+  height: 18px;
+  padding: 0 0 0 22px;
+}
+.ui-header .ui-btn-icon-left .ui-icon, .ui-footer .ui-btn-icon-left .ui-icon, .ui-bar .ui-btn-icon-left .ui-icon {
+  left: 0px;
+}
+.ui-header .ui-navbar {
+  background: #9eab05;
+  background-image: none;
+  -webkit-box-shadow: inset 0px 1px 1px #fff;
+  -moz-box-shadow: inset 0px 1px 1px #fff;
+  box-shadow: inset 0px 1px 1px #fff;
+}
+.mymobileheader.ui-bar-b {
+  background: #9eab05;
+  background-image: none;
+}
+.mymobileheader.ui-bar-a {
+  background: #9eab05;
+  background-image: none;
+}
+.ui-btn-down-b {
+  border: none;
+  background: #9eab05;
+  background-image: none;
+  text-shadow: none;
+}
+.ui-btn-up-b {
+  border: none;
+  background: #9eab05;
+  background-image: none;
+  text-shadow: none;
+}
+.ui-btn-hover-b {
+  border: none;
+  background: #9eab05;
+  background-image: none;
+  text-shadow: none;
+}
+.ui-bar-a .ui-shadow, .ui-bar-b .ui-shadow, .ui-bar-c .ui-shadow {
+  moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.ui-bar-b {
+  text-shadow: none;
+  border-color: #616365;
+  background: #424a52;
+}
+.ui-btn-inner {
+  border: none;
+}
+#page-my-indexPAGE h1 .header .title {
+  font-size: 100%;
+}
+.mobilefooter {
+  border: none;
+  background: #9eab05;
+}
+a {
+  text-decoration: none;
+}
+.ui-body-d .ui-link {
+  color: #3266CC;
+}
+.ui-body-d .ui-link:hover {
+  color: #00338D;
+}
+.ui-body-d .ui-link:active {
+  color: #00338D;
+}
+.ui-body-d .ui-link:visited {
+  color: #00338D;
+}
+.mymobileheader {
+  border-top: 0;
+}
+.ui-icon-shadow {
+  box-shadow: none;
+}
+.ui-btn-icon-notext {
+  width: 18px;
+  height: 18px;
+}
+.ui-btn-icon-notext .ui-btn-inner {
+  height: 18px;
+  padding: 0;
+}
+.weeks .current .headingwrap, .topics .current div.headingwrap, .current .ui-bar-b, .current .left.side, .tabtree ul.tabrow0 li.selected a, .ui-btn-active, #page-course-view-topcollPAGE .current {
+  background: #E0E1DD;
+}
+.ui-header .ui-btn-icon-top .ui-icon, .ui-footer .ui-btn-icon-top .ui-icon, .ui-bar .ui-btn-icon-top .ui-icon {
+  top: 6px;
+}
+.ui-header .ui-btn-icon-top .ui-btn-inner, .ui-footer .ui-btn-icon-top .ui-btn-inner, .ui-bar .ui-btn-icon-top .ui-btn-inner {
+  padding-top: 28px;
+}
+.content-primary h1 {
+  margin-top: 0;
+}
+#page-my-indexPAGE .assignment {
+  font-size: 90%;
+  margin-bottom: 8px;
+}
+.ui-header .ui-title, .ui-footer .ui-title {
+  margin: 0.8em 50px 0.6em;
+}
+#page-my-indexPAGE .block h3.main {
+  margin-right: 15px;
+}
+.course-content li.activity.ui-btn .ui-btn-text a {
+  padding-left: 40px;
+  padding-right: 40px;
+}
